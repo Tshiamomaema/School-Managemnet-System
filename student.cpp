@@ -3,7 +3,18 @@
 
 using namespace std;
 void addStudent();
-bool studentMenu(){
+
+
+
+
+struct Student{
+    string name;
+    string gender;
+    int age;
+    int studentNumber;
+
+};
+void studentMenu(){
 
     int option;
     bool studentMenuRunning = true;
@@ -18,7 +29,7 @@ bool studentMenu(){
     cout << "Please enter option: " << endl;
 
     switch(option){
-            case 1:  break;
+            case 1:  addStudent(); break;
             case 2:  break;
             case 3: break;
             case 4:  break;
@@ -29,5 +40,5 @@ bool studentMenu(){
 }
 
 void addStudent(){
-
+    
 }

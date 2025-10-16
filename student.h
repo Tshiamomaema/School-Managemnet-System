@@ -3,7 +3,6 @@
 
 #include <string>
 
-// Display student management menu (minimal stub)
-bool studentMenu();
+void studentMenu();
 
-#endif // STUDENT_H
+#endif

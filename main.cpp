@@ -1,6 +1,5 @@
 #include <iostream>
 #include <limits>
-#include <iostream>
 #include "student.h"
 #include "teacher.h"
 #include "course.h"
@@ -21,7 +20,7 @@ int main()
         cin >> option;
     
         switch(option){
-            case 1: running = studentMenu(); break;
+            case 1: studentMenu(); break;
             case 2: teacherMenu(); break;
             case 3: courseMenu(); break;
             case 4: running = false; break;

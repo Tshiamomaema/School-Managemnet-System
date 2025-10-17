@@ -18,15 +18,11 @@ struct Student{
 };
 
 
-
 void studentMenu(){
 
     int option;
     bool studentMenuRunning = true;
     string studentFile = "student.txt";
-
-    //open file for appending
-    
 
     while(studentMenuRunning){
     cout << "Welcome to student Menu" << endl;
@@ -82,11 +78,11 @@ void addStudent(const string& studentFile){
         cin >> students[i].gender;
         cin.ignore();
 
-
-        File << students[i].name << "," << students[i].studentNumber << "," << students[i].gender;
-
+        //Writing student information into the file
+        File << students[i].name << ","
+         << students[i].studentNumber << "," 
+         << students[i].gender << "\n";
     }
-
     File.close();
 
 }

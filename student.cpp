@@ -12,6 +12,8 @@ struct Student{
     string gender;
     int age;
     int studentNumber;
+    string gender;
+    
 
 };
 void studentMenu(){

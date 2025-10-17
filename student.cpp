@@ -40,7 +40,7 @@ void studentMenu(){
     switch(option){
             case 1:  addStudent(studentFile); break;
             case 2:  showAllStudents(); break;
-            case 3: removeStudent(); break;
+            case 3:  removeStudent(); break;
             case 4:  studentGrade(); break;
             case 5:  studentMenuRunning = false;break;
             default: cout << "Unknown option.\n"; break;
